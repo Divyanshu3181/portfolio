@@ -2,85 +2,90 @@ import { ProjectItem } from "../types";
 
 export const projectsData: ProjectItem[] = [
   {
-    title: "Hirrd",
+    title: "Netflux",
     description:
-      "A modern job portal application connecting talent with opportunities",
-    image: "hirrd.png",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
-    live: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
+      "Designed and developed a responsive, movie streaming app, featuring secure login/signup, a cinematic browse page with video trailers, and trending movie sections.",
+    image: "netflux1.jpeg",
+    tech: ["React", "Redux", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/Divyanshu3181/netflux",
+    live: "https://netflux-beta.vercel.app/",
     details: {
       problem:
-        "Traditional job boards lack modern features and user experience",
+        "Traditional movie recommentations are lack of modern features and user experience",
       solution:
-        "Built a streamlined job portal with real-time updates and intelligent matching",
+        "Built a streamlinedmovie recommentations with real-time movie updates and movie search functionality",
       features: [
-        "Real-time job notifications",
-        "AI-powered job matching",
-        "Advanced search filters",
-        "Application tracking system",
+        "Sign In / Sign up feature",
+        "Backgroud Trailer streaming",
+        "Advanced movie search",
+        
       ],
-      impact: "Helping thousands of job seekers find their dream positions",
+      impact: "Helping thousands of movie seekers find their desire movie",
     },
   },
   {
-    title: "Schedulrr",
-    description: "A Calendly clone for seamless meeting scheduling",
-    image: "schedulrr.png",
-    tech: ["Next.js", "TypeScript", "Prisma", "tRPC"],
-    github: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
-    live: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
+    title: "My-Tube",
+    description: " Developed a Scalable video streaming platform with features like video playback and interactive user engagement.",
+    image: "my-tube.jpeg",
+    tech: ["React", "Redux", "Tailwind CSS", "API Polling", "Debouncing", "Caching"],
+    github: "https://github.com/Divyanshu3181/my-youtube",
+    live: "https://www.youtube.com/watch?v=br8Bb7QSFvM",
     details: {
-      problem: "Complex meeting scheduling across time zones",
+      problem: "Complex Video streaming",
       solution:
-        "Created an intuitive scheduling platform with automated time zone handling",
+        "Developed My-Tube, a scalable video streaming platform with a focus on performance optimization, interactive user engagement, and real-time features. Leveraged advanced techniques like debouncing, caching, and API polling to ensure seamless functionality and reduced latency.",
       features: [
-        "Multiple calendar integration",
-        "Custom availability rules",
-        "Automated reminders",
-        "Team scheduling",
+        "Video Playback & Interactive Engagement",
+        "De-Bounced Search with Caching",
+        "Nested Comment System",
+        "Real-Time Live Chat",
+        "State Management with Redux",
       ],
-      impact: "Reduced meeting scheduling time by 80% for users",
+      impact: "Improved search efficiency and reduced server load by 30% through debouncing and caching. Real-time features like live chat and nested comments drove 20% higher user retention rates.",
+    },
+    
+  },
+  {
+    title: "Task-Management Dashboard",
+    description: "A Task-management solution",
+    image: "task_management.jpeg",
+    tech: ["React", "Redux", "Tailwind CSS"],
+    github: "https://github.com/Divyanshu3181/task_management",
+    live: "https://github.com/Divyanshu3181/task_management",
+    details: {
+      problem: "Complex Task Management",
+      solution:
+        "Developed a Task Manager Application to streamline task management with features like dynamic filtering, debounced search, persistent storage, and confirmation modals to ensure user actions are deliberate and secure.",
+      features: [
+        "Task Creation & Status Management",
+        "Dynamic Search with Debouncing",
+        "Task Filters for Streamlined Viewing",
+        "Confirmation Modals for Secure Actions",
+        "Persistent Storage",
+      ],
+      impact: "Improved Task Management, Enhanced User Experience",
     },
   },
   {
-    title: "Zcrum",
-    description: "A Jira-inspired project management solution",
-    image: "zcrum.png",
-    tech: ["React", "Redux", "Node.js", "PostgreSQL"],
-    github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
+    title: "Expense Tracker",
+    description: "Expense Tracker: C++ Command-Line Application",
+    image: "expense.jpg",
+    tech: ["C++", " File Handling", "OOP", "Data Persistence"],
+    github: "https://github.com/Divyanshu3181/Expenses_Tracker",
+    live: "https://github.com/Divyanshu3181/Expenses_Tracker",
     details: {
-      problem: "Need for a simplified project management tool for small teams",
+      problem: "Many people struggle to track their personal expenses effectively, leading to poor financial management. Existing tools are often overly feature-heavy or lack the ability to work offline.",
       solution:
-        "Developed a streamlined alternative to complex enterprise tools",
+        "Built a C++ command-line expense tracker to offer a lightweight, easy-to-use, offline solution for managing personal finances.",
       features: [
-        "Kanban and Scrum boards",
-        "Sprint planning",
-        "Time tracking",
-        "Performance analytics",
+        "Expense Management",
+        "Summary Reports",
+        "Persistent Storage",
+        "Offline Usability",
       ],
-      impact: "Helping teams increase productivity by 40%",
+      impact: "Enabled users to better manage their finances by keeping an organized record of expenses",
     },
+    
   },
-  {
-    title: "Reflct",
-    description: "A minimalist journaling application",
-    image: "reflct.png",
-    tech: ["Next.js", "Tailwind CSS", "Supabase"],
-    github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    details: {
-      problem: "Digital journaling apps are often cluttered and complex",
-      solution:
-        "Created a clean, focused writing experience with powerful features",
-      features: [
-        "Markdown support",
-        "Daily prompts",
-        "Mood tracking",
-        "Privacy-focused design",
-      ],
-      impact: "Helping users maintain consistent journaling habits",
-    },
-  },
+  
 ];

@@ -19,13 +19,13 @@ export default function Navbar() {
             <a href="#projects" className="text-gray-700 hover:text-gray-900 transition-colors">Projects</a>
             <a href="#contact" className="text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
             <div className="flex items-center space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
+              <a href="https://github.com/Divyanshu3181" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
+              <a href="www.linkedin.com/in/divyanshu-sharma-33471623b" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="mailto:your.email@example.com" className="text-gray-700 hover:text-gray-900">
+              <a href="mailto:sharmadivyanshu9752@gmail.com" className="text-gray-700 hover:text-gray-900">
                 <Mail className="w-5 h-5" />
               </a>
             </div>

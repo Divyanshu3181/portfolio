@@ -16,10 +16,10 @@ export default function Contact() {
     try {
       setIsSubmitting(true);
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        'YOUR_PUBLIC_KEY'
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
       toast.success('Message sent successfully!');
       formRef.current.reset();
@@ -71,7 +71,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Email</p>
-                  <p className="text-gray-900 font-medium">contact@roadsidecoder.com</p>
+                  <p className="text-gray-900 font-medium">sharmadivyanshu9752@gmail.com</p>
                 </div>
               </motion.div>
               
@@ -84,13 +84,13 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Location</p>
-                  <p className="text-gray-900 font-medium">Bangalore, India</p>
+                  <p className="text-gray-900 font-medium">Indore, India</p>
                 </div>
               </motion.div>
             </div>
           </motion.div>
 
-          {/* Contact Form */}
+          {/* Contact Form
           <motion.form
             ref={formRef}
             onSubmit={handleSubmit}
@@ -152,7 +152,7 @@ export default function Contact() {
                 </>
               )}
             </motion.button>
-          </motion.form>
+          </motion.form> */}
         </motion.div>
       </div>
     </section>

@@ -27,39 +27,26 @@ export default function About() {
             variants={fadeInUp}
           >
             <img
-              src="/piyush.png"
-              alt="Piyush Agarwal"
+              src="https://media-bom2-3.cdn.whatsapp.net/v/t61.24694-24/460903083_592607993427368_8158769960066249694_n.jpg?ccb=11-4&oh=01_Q5AaIMgNtsxHwowLWIAgy5cKL5iDsOnQ--VmQTyjFJZGkpJc&oe=675D66E4&_nc_sid=5e03e0&_nc_cat=104"
+              alt="Divyanshu Sharma"
               className="w-full h-full object-cover rounded-2xl"
             />
           </motion.div>
 
           <motion.div className="space-y-6" variants={staggerContainer}>
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-              Hi, I'm Piyush Agarwal, a passionate Full Stack Developer and
-              educator. I create content on YouTube through my channel
-              RoadsideCoder, where I share my knowledge and experience with the
-              developer community.
+            Hi, I'm Divyanshu Sharma, a passionate web developer skilled in React.js, JavaScript, and modern front-end tools like Tailwind CSS. I love building user-friendly web applications and solving problems with clean, efficient code.
             </motion.p>
 
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-              With extensive experience in modern web technologies and a strong
-              foundation in both frontend and backend development, I help
-              businesses build scalable solutions and mentor aspiring developers
-              to achieve their goals.
+            With a strong foundation in both front-end and back-end technologies, I’m eager to contribute to innovative projects and collaborate with teams to create impactful solutions.Let’s connect and build something amazing together!
             </motion.p>
 
             <motion.div
               className="grid grid-cols-2 gap-4 pt-4"
               variants={fadeInUp}
             >
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-bold text-xl text-gray-900">3+</h3>
-                <p className="text-gray-600">Years Experience</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-bold text-xl text-gray-900">125K+</h3>
-                <p className="text-gray-600">YouTube Subscribers</p>
-              </div>
+             
             </motion.div>
           </motion.div>
         </motion.div>

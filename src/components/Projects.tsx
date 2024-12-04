@@ -8,6 +8,7 @@ import type { ProjectItem } from '../types';
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null);
 
+
   return (
     <section id="projects" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

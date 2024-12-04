@@ -6,32 +6,27 @@ const skills = [
   {
     category: 'Frontend Development',
     icon: Globe,
-    skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Redux'],
-  },
-  {
-    category: 'Backend Development',
-    icon: Server,
-    skills: ['Node.js', 'Express', 'Python', 'Django', 'REST APIs'],
+    skills: ['React', 'Tailwind CSS', 'Redux',  'HTML/CSS'],
   },
   {
     category: 'Database',
     icon: Database,
-    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Firebase'],
+    skills: ['MySql', 'Firebase'],
   },
   {
-    category: 'DevOps',
+    category: 'Tools',
     icon: Terminal,
-    skills: ['Docker', 'AWS', 'CI/CD', 'Linux', 'Git'],
+    skills: ['VS Code', 'GitHub'],
   },
   {
     category: 'Programming Languages',
     icon: Code,
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL'],
+    skills: ['JavaScript', 'C++', 'SQL'],
   },
   {
     category: 'Design',
     icon: Palette,
-    skills: ['Figma', 'Adobe XD', 'UI/UX', 'Responsive Design'],
+    skills: ['UI/UX', 'Responsive Design'],
   },
 ];
 
