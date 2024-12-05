@@ -34,6 +34,9 @@ export default function About() {
           </motion.div>
 
           <motion.div className="space-y-6" variants={staggerContainer}>
+            <motion.p className="text-4xl font-extrabold text-center text-black-600 mb-16" variants={fadeInUp}>
+              Divyanshu Sharma 👋🏼
+            </motion.p>
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
             Hi, I'm Divyanshu Sharma, a passionate web developer skilled in React.js, JavaScript, and modern front-end tools like Tailwind CSS. I love building user-friendly web applications and solving problems with clean, efficient code.
             </motion.p>
