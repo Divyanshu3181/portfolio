@@ -27,7 +27,7 @@ export default function About() {
             variants={fadeInUp}
           >
             <img
-              src="https://media-bom2-3.cdn.whatsapp.net/v/t61.24694-24/460903083_592607993427368_8158769960066249694_n.jpg?ccb=11-4&oh=01_Q5AaIMgNtsxHwowLWIAgy5cKL5iDsOnQ--VmQTyjFJZGkpJc&oe=675D66E4&_nc_sid=5e03e0&_nc_cat=104"
+              src="about.jpg"
               alt="Divyanshu Sharma"
               className="w-full h-full object-cover rounded-2xl"
             />
@@ -38,11 +38,11 @@ export default function About() {
               Divyanshu Sharma 👋🏼
             </motion.p>
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-            Hi, I'm Divyanshu Sharma, a passionate web developer skilled in React.js, JavaScript, and modern front-end tools like Tailwind CSS. I love building user-friendly web applications and solving problems with clean, efficient code.
+            Hi, I'm Divyanshu Sharma, a dedicated and results-driven software developer skilled in C++, React.js, JavaScript, and modern front-end tools like Redux, Tailwind CSS. I love building user-friendly web applications and solving problems with clean, efficient code.
             </motion.p>
 
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-            With a strong foundation in both front-end and back-end technologies, I’m eager to contribute to innovative projects and collaborate with teams to create impactful solutions.Let’s connect and build something amazing together!
+            My technical toolkit encompasses React.js, Redux, Tailwind CSS, C++, and MySQL, alongside proficiency in tools like Git and Visual Studio Code. I’m skilled in building scalable applications, testing techniques, and implementing agile methodologies (SDLC).
             </motion.p>
 
             <motion.div
