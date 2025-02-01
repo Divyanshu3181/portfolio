@@ -22,7 +22,7 @@ export default function Navbar() {
               <a href="https://github.com/Divyanshu3181" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="www.linkedin.com/in/divyanshu-sharma-33471623b" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
+              <a href="https://www.linkedin.com/in/divyanshu-sharma-33471623b/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
                 <Linkedin className="w-5 h-5" />
               </a>
               <a href="mailto:sharmadivyanshu9752@gmail.com" className="text-gray-700 hover:text-gray-900">

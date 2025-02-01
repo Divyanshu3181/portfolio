@@ -2,6 +2,33 @@ import { ProjectItem } from "../types";
 
 export const projectsData: ProjectItem[] = [
   {
+    title: "DevSpark",
+    description:
+      "Built a developer-centric social platform with a personalized feed, connection requests, and real-time chat using WebSocket.",
+    image: "devspark.png",
+    tech: [
+      "React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "WebSocket", "AWS EC2", "Nginx"
+    ],
+    github: "https://github.com/Divyanshu3181/DevSpark-web",
+    live: "https://devspark.divyanshu.site/",
+    details: {
+      problem:
+        "Developers lack a dedicated platform for networking, collaboration, and real-time discussions.",
+      solution:
+        "Created DevSpark, a social platform tailored for developers with features like real-time chat, personalized feeds, and secure authentication.",
+      features: [
+        "Personalized Feed",
+        "Connection Requests",
+        "Real-Time Chat with WebSocket",
+        "Secure Authentication",
+        "Optimized State Management with Redux Toolkit",
+        "Deployed on AWS EC2 with Nginx for Scalability",
+      ],
+      impact:
+        "Enhanced networking and collaboration among developers, providing a seamless user experience and efficient state management.",
+    },
+  },
+  {
     title: "Netflux",
     description:
       "Designed and developed a responsive, movie streaming app, featuring secure login/signup, a cinematic browse page with video trailers, and trending movie sections.",
@@ -11,21 +38,20 @@ export const projectsData: ProjectItem[] = [
     live: "https://netflux-beta.vercel.app/",
     details: {
       problem:
-        "Traditional movie recommentations are lack of modern features and user experience",
+        "Traditional movie recommendations lack modern features and user experience.",
       solution:
-        "Built a streamlinedmovie recommentations with real-time movie updates and movie search functionality",
+        "Built a streamlined movie recommendation system with real-time movie updates and a movie search functionality.",
       features: [
         "Sign In / Sign up feature",
-        "Backgroud Trailer streaming",
+        "Background Trailer streaming",
         "Advanced movie search",
-        
       ],
-      impact: "Helping thousands of movie seekers find their desire movie",
+      impact: "Helping thousands of movie seekers find their desired movie.",
     },
   },
   {
     title: "My-Tube",
-    description: " Developed a Scalable video streaming platform with features like video playback and interactive user engagement.",
+    description: "Developed a scalable video streaming platform with features like video playback and interactive user engagement.",
     image: "my-tube.jpeg",
     tech: ["React", "Redux", "Tailwind CSS", "API Polling", "Debouncing", "Caching"],
     github: "https://github.com/Divyanshu3181/my-youtube",
@@ -43,7 +69,6 @@ export const projectsData: ProjectItem[] = [
       ],
       impact: "Improved search efficiency and reduced server load by 30% through debouncing and caching. Real-time features like live chat and nested comments drove 20% higher user retention rates.",
     },
-    
   },
   {
     title: "Task-Management Dashboard",
@@ -66,26 +91,4 @@ export const projectsData: ProjectItem[] = [
       impact: "Improved Task Management, Enhanced User Experience",
     },
   },
-  {
-    title: "Expense Tracker",
-    description: "Expense Tracker: C++ Command-Line Application",
-    image: "expense.jpg",
-    tech: ["C++", " File Handling", "OOP", "Data Persistence"],
-    github: "https://github.com/Divyanshu3181/Expenses_Tracker",
-    live: "https://github.com/Divyanshu3181/Expenses_Tracker",
-    details: {
-      problem: "Many people struggle to track their personal expenses effectively, leading to poor financial management. Existing tools are often overly feature-heavy or lack the ability to work offline.",
-      solution:
-        "Built a C++ command-line expense tracker to offer a lightweight, easy-to-use, offline solution for managing personal finances.",
-      features: [
-        "Expense Management",
-        "Summary Reports",
-        "Persistent Storage",
-        "Offline Usability",
-      ],
-      impact: "Enabled users to better manage their finances by keeping an organized record of expenses",
-    },
-    
-  },
-  
 ];

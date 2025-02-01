@@ -98,6 +98,14 @@ export default function Hero() {
             >
               Contact Me
             </motion.a>
+            <motion.a
+              href="https://drive.google.com/file/d/1U2J5yxXMQI6ZE7ivafv8ecWjzCEI0gS1/view?usp=sharing"
+              className="px-8 py-3 rounded-full text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-300"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Resume
+            </motion.a>
           </motion.div>
         </div>
 

@@ -9,14 +9,14 @@ const skills = [
     skills: ['React', 'Tailwind CSS', 'Redux',  'HTML/CSS'],
   },
   {
-    category: 'Database',
+    category: 'Backend Development',
     icon: Database,
-    skills: ['MySql', 'Firebase'],
+    skills: ['Node.js', 'Express.js', 'MongoDB', 'MySql', 'Firebase'],
   },
   {
-    category: 'Tools',
+    category: ' Tools/Platforms',
     icon: Terminal,
-    skills: ['VS Code', 'GitHub'],
+    skills: ['VS Code', 'GitHub', 'Postman'],
   },
   {
     category: 'Programming Languages',
@@ -27,6 +27,11 @@ const skills = [
     category: 'Design',
     icon: Palette,
     skills: ['UI/UX', 'Responsive Design'],
+  },
+  {
+    category: 'Concepts',
+    icon: Server,
+    skills: ['Data Structure and Algorithm', 'SDLC(Agile, XP)', 'Scalability', 'Testing Techniques'],
   },
 ];
 
