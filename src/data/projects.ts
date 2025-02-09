@@ -35,7 +35,7 @@ export const projectsData: ProjectItem[] = [
     image: "netflux1.jpeg",
     tech: ["React", "Redux", "Firebase", "Tailwind CSS"],
     github: "https://github.com/Divyanshu3181/netflux",
-    live: "https://netflux-beta.vercel.app/",
+    live: "https://netflux-git-main-divyanshu3181s-projects.vercel.app/",
     details: {
       problem:
         "Traditional movie recommendations lack modern features and user experience.",
