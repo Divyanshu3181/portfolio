@@ -1,6 +1,7 @@
 import { Briefcase, GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { timelineData } from '../data/timeline';
+import './Timeline.css'
 
 export default function Timeline() {
   return (
@@ -30,19 +31,21 @@ export default function Timeline() {
                 className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}
               >
                 {/* Content */}
-                <div className="w-1/2 pr-8 pl-8">
+                <div className="container w-1/2 pr-3 pl-1">
                   <motion.div
                     whileHover={{ scale: 1.02 }}
-                    className={`bg-white p-6 rounded-lg shadow-md ${
+                    className={`bg-white p-4 rounded-lg shadow-md ${
                       index % 2 === 0 ? 'text-right' : 'text-left'
                     }`}
                   >
-                    <span className="inline-block px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-2">
+                    <div className="year">
+                    <span className="inline-block md:px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-2 text2">
                       {item.year}
                     </span>
-                    <h3 className="text-xl font-bold text-gray-900">{item.title}</h3>
-                    <p className="text-indigo-600 font-medium">{item.company}</p>
-                    <p className="text-gray-600 mt-2">{item.description}</p>
+                    </div>
+                    <h3 className="text-xl font-bold text-gray-900 text1">{item.title}</h3>
+                    <p className="text-indigo-600 font-medium text">{item.company}</p>
+                    <p className="text-gray-600 mt-2 text">{item.description}</p>
                   </motion.div>
                 </div>
 
