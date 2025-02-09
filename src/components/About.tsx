@@ -38,18 +38,26 @@ export default function About() {
               Divyanshu Sharma 👋🏼
             </motion.p>
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-            Hi, I'm Divyanshu Sharma, a dedicated and results-driven software developer skilled in C++, React.js, JavaScript, and modern front-end tools like Redux, Tailwind CSS. I love building user-friendly web applications and solving problems with clean, efficient code.
+              Hi, I'm Divyanshu Sharma, a passionate and results-driven software developer with expertise in full-stack development.
             </motion.p>
 
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-            My technical toolkit encompasses React.js, Redux, Tailwind CSS, C++, and MySQL, alongside proficiency in tools like Git and Visual Studio Code. I’m skilled in building scalable applications, testing techniques, and implementing agile methodologies (SDLC).
+              I specialize in JavaScript, C++, and SQL, with hands-on experience in both front-end and back-end technologies. On the front-end, I work with React.js, Redux, Tailwind CSS, and HTML/CSS, crafting seamless and responsive user interfaces. On the back-end, I build scalable and efficient systems using Node.js, Express.js, MongoDB, and MySQL.
+            </motion.p>
+
+            <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
+              I am proficient in tools and platforms like Visual Studio Code, GitHub, and Postman, enabling smooth development and debugging workflows. Additionally, I have a strong foundation in Data Structures & Algorithms, Agile methodologies (XP, SDLC), Scalability, and Testing Techniques, ensuring robust and maintainable software solutions.
+            </motion.p>
+
+            <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
+              I thrive on solving complex problems and building high-performance applications that enhance user experience. Always eager to learn and innovate, I strive to stay updated with the latest industry trends.
             </motion.p>
 
             <motion.div
               className="grid grid-cols-2 gap-4 pt-4"
               variants={fadeInUp}
             >
-             
+
             </motion.div>
           </motion.div>
         </motion.div>

@@ -75,7 +75,7 @@ export default function Hero() {
             className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto"
             variants={fadeInUp}
           >
-            Software Developer | Frontend Developer | Problem Solver
+            Software Developer | Full-Stack Developer | Problem Solver
           </motion.p>
 
           <motion.div 
@@ -100,7 +100,7 @@ export default function Hero() {
             </motion.a>
             <motion.a
               href="https://drive.google.com/file/d/1U2J5yxXMQI6ZE7ivafv8ecWjzCEI0gS1/view?usp=sharing"
-              className="px-8 py-3 rounded-full text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-300"
+              className={`px-8 py-3 rounded-full text-white ${gradientBg} ${gradientHover} transition-all duration-300 shadow-lg shadow-purple-500/25`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
