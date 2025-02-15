@@ -17,13 +17,13 @@ export const projectsData: ProjectItem[] = [
       solution:
         "Created DevSpark, a social platform tailored for developers with features like real-time chat, personalized feeds, and secure authentication.",
       features: [
-        "Personalized Feed",
+        "Engineered a developer-focused social platform featuring a personalized content feed, professional networking",
         "Connection Requests",
-        "Real-Time Chat with WebSocket",
+        "Real-Time Chat with WebSocket with 40% improved latency",
+        "Architected a scalable backend using Node.js, Express.js, and MongoDB, implementing Razorpay payment gateway with 99.9% uptime.",
         "Secure Authentication",
-        "Optimized State Management with Redux Toolkit",
-        "Deployed on AWS EC2 with Nginx for Scalability",
-        "Payment Integration with razorpay"
+        "Enhanced application performance with Redux Toolkit and custom middleware, reducing data fetch times by 35% and optimizing state management.",
+        "Deployed and configured production infrastructure on AWS EC2 with Nginx reverse proxy and PM2, achieving 99.5% system availability",
       ],
       impact:
         "Enhanced networking and collaboration among developers, providing a seamless user experience and efficient state management.",
