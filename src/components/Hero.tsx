@@ -99,7 +99,7 @@ export default function Hero() {
               Contact Me
             </motion.a>
             <motion.a
-              href="https://drive.google.com/file/d/1NEMB9fUwsyhn5tz1q89fABhG4dP95ex4/view?usp=sharing"
+              href="https://drive.google.com/file/d/18NWfLJTgdcmlOZh_NLF20zEZWlwvQFvL/view?usp=sharing"
               className={`px-8 py-3 rounded-full text-white ${gradientBg} ${gradientHover} transition-all duration-300 shadow-lg shadow-purple-500/25`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
