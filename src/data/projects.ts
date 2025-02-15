@@ -23,6 +23,7 @@ export const projectsData: ProjectItem[] = [
         "Secure Authentication",
         "Optimized State Management with Redux Toolkit",
         "Deployed on AWS EC2 with Nginx for Scalability",
+        "Payment Integration with razorpay"
       ],
       impact:
         "Enhanced networking and collaboration among developers, providing a seamless user experience and efficient state management.",
