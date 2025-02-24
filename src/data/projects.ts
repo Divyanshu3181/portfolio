@@ -30,24 +30,28 @@ export const projectsData: ProjectItem[] = [
     },
   },
   {
-    title: "Netflux",
+    title: "Draw-App",
     description:
-      "Designed and developed a responsive, movie streaming app, featuring secure login/signup, a cinematic browse page with video trailers, and trending movie sections.",
-    image: "netflux1.jpeg",
-    tech: ["React", "Redux", "Firebase", "Tailwind CSS"],
-    github: "https://github.com/Divyanshu3181/netflux",
-    live: "https://netflux-git-main-divyanshu3181s-projects.vercel.app/",
+      "• Engineered a real-time collaborative drawing platform enabling multiple users to draw, erase, and move objects in shared workspaces with WebSocket-based synchronization, achieving <100ms latency.",
+    image: "draw-app.png",
+    tech: ["Next.js", "TypeScript", "WebSocket", "PostgreSQL", "Node.js", "TurboRepo"],
+    github: "https://github.com/Divyanshu3181/draw-app",
+    live: "https://www.youtube.com/watch?v=kXMRmq4HHjU",
     details: {
       problem:
-        "Traditional movie recommendations lack modern features and user experience.",
+        "Real-time collaboration in drawing applications often suffers from latency issues and poor synchronization, limiting team creativity and productivity.",
       solution:
-        "Built a streamlined movie recommendation system with real-time movie updates and a movie search functionality.",
+        "Developed a scalable collaborative drawing platform with WebSocket architecture that enables instant synchronization and smooth multi-user interactions.",
       features: [
-        "Sign In / Sign up feature",
-        "Background Trailer streaming",
-        "Advanced movie search",
+        "Real-time collaborative drawing with multiple tools",
+        "Secure room creation and sharing system",
+        "Built-in real-time chat functionality",
+        "Object manipulation (move, resize, delete)",
+        "Responsive design with dark mode support"
       ],
-      impact: "Helping thousands of movie seekers find their desired movie.",
+      impact: 
+        "50% reduction in sync latency, 30% faster build times with TurboRepo, Handles 100+ concurrent users per room, 95% code reusability across modules"
+      
     },
   },
   {
@@ -72,24 +76,24 @@ export const projectsData: ProjectItem[] = [
     },
   },
   {
-    title: "Task-Management Dashboard",
-    description: "A Task-management solution",
-    image: "task_management.jpeg",
-    tech: ["React", "Redux", "Tailwind CSS"],
-    github: "https://github.com/Divyanshu3181/task_management",
-    live: "https://github.com/Divyanshu3181/task_management",
+    title: "Netflux",
+    description:
+      "Designed and developed a responsive, movie streaming app, featuring secure login/signup, a cinematic browse page with video trailers, and trending movie sections.",
+    image: "netflux1.jpeg",
+    tech: ["React", "Redux", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/Divyanshu3181/netflux",
+    live: "https://netflux-git-main-divyanshu3181s-projects.vercel.app/",
     details: {
-      problem: "Complex Task Management",
+      problem:
+        "Traditional movie recommendations lack modern features and user experience.",
       solution:
-        "Developed a Task Manager Application to streamline task management with features like dynamic filtering, debounced search, persistent storage, and confirmation modals to ensure user actions are deliberate and secure.",
+        "Built a streamlined movie recommendation system with real-time movie updates and a movie search functionality.",
       features: [
-        "Task Creation & Status Management",
-        "Dynamic Search with Debouncing",
-        "Task Filters for Streamlined Viewing",
-        "Confirmation Modals for Secure Actions",
-        "Persistent Storage",
+        "Sign In / Sign up feature",
+        "Background Trailer streaming",
+        "Advanced movie search",
       ],
-      impact: "Improved Task Management, Enhanced User Experience",
+      impact: "Helping thousands of movie seekers find their desired movie.",
     },
   },
 ];
