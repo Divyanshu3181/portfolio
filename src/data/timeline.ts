@@ -6,13 +6,20 @@ export const timelineData: TimelineItem[] = [
     title: 'Master of Computer Applications',
     company: 'Medicaps University Indore',
     description: '',
-    icon: 'work'
+    icon: 'education'
   },
   {
     year: 'June 2024 - Aug 2024',
     title: 'JavaScript Intern',
     company: 'FOURS GURU',
     description: 'Implement JavaScript functionality to build dynamic Website',
+    icon: 'work'
+  },
+  {
+    year: ' March 2025 - Present',
+    title: 'Junior Software Engineer',
+    company: 'GrowwStacks',
+    description: 'Developed scalable backend systems with API integrations and automation to enhance performance, security, and operational efficiency.',
     icon: 'work'
   },
   // {
